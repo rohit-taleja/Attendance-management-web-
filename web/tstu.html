@@ -1,0 +1,36 @@
+<Html>
+<head>
+<body background="gg.jpg"></body>
+<style type="text/css">#st1{font-size:120%; vertical-align:top;}
+</style>
+<script>
+var myVar=setInterval(function(){myTimer()},100);
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+	document.getElementById("demo").title=d.toLocaleDateString()+"  "+d.toLocaleTimeString();
+}
+</script>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" width="100%" height="94%" >
+<tr height="85%">
+<td align="center" ><font size=6  align=center> <CENTER><b>         THAPAR UNIVERSITY, PATIALA.</b></CENTER>
+</Font><BR><MARQUEE style="COLOR: #63756d; FONT-FAMILY: Arial; FONT-SIZE:normal; FONT-STYLE: normal; FONT-VARIANT: normal; 
+FONT-WEIGHT: bold; HEIGHT: 15px; WIDTH: 625px;COLOR:WHITE;"    scrolldelay="30">NO MESSAGE FOUND</FONT> </MARQUEE>
+</td>
+<td valign=top COLSPAN="2">
+
+<p align="right" bgcolor=black><FONT id="st2" COLOR=WHITE ><FONT  face="COMIC SANS MS" SIZE="2" ><script>message=new Date()
+h=message.getHours()
+if((h < 12) && (h >= 6))
+{document.write("<FONT SIZE=2 color=white><B>Good Morning</B></FONT>")}  
+if((h >= 12) && (h < 17))
+{document.write("<FONT SIZE=2 color=white><B>Good Afternoon</B></FONT>")}  
+if((h >= 17) && (h <= 23))
+{document.write("<FONT SIZE=2 color=white><B>Good Evening</B></FONT>")}  
+ </script></font>
+<p align="right" bgcolor=black><FONT  COLOR=WHITE ><FONT  face="COMIC SANS MS" SIZE="2" ><p color=white id="demo" align="right"></p></B></FONT>
+</td></tr></table>
+</body>
+</html>

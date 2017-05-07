@@ -1,0 +1,177 @@
+  <?xml version="1.0" encoding="UTF-8" ?> 
+ <web-app>
+ <servlet>
+  <servlet-name>Login</servlet-name> 
+  <servlet-class>hoo.Login</servlet-class> 
+  </servlet>
+ <servlet>
+  <servlet-name>WelcomeServlet</servlet-name> 
+  <servlet-class>hoo.WelcomeServlet</servlet-class> 
+  </servlet>
+ <servlet>
+  <servlet-name>insertMarks</servlet-name> 
+  <servlet-class>hoo.insertMarks</servlet-class> 
+  </servlet>
+ <servlet>
+  <servlet-name>insertComment</servlet-name> 
+  <servlet-class>hoo.insertComment</servlet-class> 
+  </servlet>
+
+  <servlet>
+  <servlet-name>insertAttendance</servlet-name> 
+  <servlet-class>hoo.insertAttendance</servlet-class> 
+  </servlet>
+ <servlet>
+  <servlet-name>createLogin</servlet-name> 
+  <servlet-class>hoo.createLogin</servlet-class> 
+  </servlet>
+ 
+<servlet>
+  <servlet-name>resetPassword</servlet-name> 
+  <servlet-class>hoo.resetPassword</servlet-class> 
+  </servlet>
+
+ <servlet>
+  <servlet-name>insertSubject</servlet-name> 
+  <servlet-class>hoo.insertSubject</servlet-class> 
+ </servlet>
+   <servlet>
+  <servlet-name>createTeacherLogin</servlet-name> 
+  <servlet-class>hoo.createTeacherLogin</servlet-class> 
+  </servlet>
+ <servlet>
+  <servlet-name>createStudentLogin</servlet-name> 
+  <servlet-class>hoo.createStudentLogin</servlet-class> 
+  </servlet>
+
+ <servlet>
+  <servlet-name>viewAttendance</servlet-name> 
+  <servlet-class>hoo.viewAttendance</servlet-class> 
+  </servlet>
+ <servlet>
+  <servlet-name>viewComment</servlet-name> 
+  <servlet-class>hoo.viewComment</servlet-class> 
+  </servlet>
+ <servlet>
+  <servlet-name>viewMarks</servlet-name> 
+  <servlet-class>hoo.viewMarks</servlet-class> 
+  </servlet>
+
+ <servlet>
+  <servlet-name>changePin</servlet-name> 
+  <servlet-class>hoo.changePin</servlet-class> 
+  </servlet>
+
+ <servlet>
+  <servlet-name>insertGrades</servlet-name> 
+  <servlet-class>hoo.insertGrades</servlet-class> 
+  </servlet>
+
+  <servlet>
+  <servlet-name>viewGrades</servlet-name> 
+  <servlet-class>hoo.viewGrades</servlet-class> 
+  </servlet>
+
+
+  <servlet>
+  <servlet-name>viewCgpa</servlet-name> 
+  <servlet-class>hoo.viewCgpa</servlet-class> 
+  </servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>Login</servlet-name> 
+  <url-pattern>/Login</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>WelcomeServlet</servlet-name> 
+  <url-pattern>/WelcomeServlet</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>insertMarks</servlet-name> 
+  <url-pattern>/insertMarks</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>insertComment</servlet-name> 
+  <url-pattern>/insertComment</url-pattern> 
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+<servlet-name>insertAttendance</servlet-name> 
+  <url-pattern>/insertAttendance</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>createLogin</servlet-name> 
+  <url-pattern>/createLogin</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>resetPassword</servlet-name> 
+  <url-pattern>/resetPassword</url-pattern> 
+  </servlet-mapping>
+  
+ 
+  <servlet-mapping>
+  <servlet-name>insertSubject</servlet-name> 
+  <url-pattern>/insertSubject</url-pattern> 
+  </servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>createStudentLogin</servlet-name> 
+  <url-pattern>/createStudentLogin</url-pattern> 
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>createTeacherLogin</servlet-name> 
+  <url-pattern>/createTeacherLogin</url-pattern> 
+  </servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>createTeacherLogin</servlet-name> 
+  <url-pattern>/createTeacherLogin</url-pattern> 
+  </servlet-mapping>
+<servlet-mapping>
+  <servlet-name>createTeacherLogin</servlet-name> 
+  <url-pattern>/createTeacherLogin</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>viewAttendance</servlet-name> 
+  <url-pattern>/viewAttendance</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>viewComment</servlet-name> 
+  <url-pattern>/viewComment</url-pattern> 
+  </servlet-mapping>
+  
+<servlet-mapping>
+  <servlet-name>viewMarks</servlet-name> 
+  <url-pattern>/viewMarks</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>changePin</servlet-name> 
+  <url-pattern>/changePin</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>insertGrades</servlet-name> 
+  <url-pattern>/insertGrades</url-pattern> 
+  </servlet-mapping>
+
+ <servlet-mapping>
+  <servlet-name>viewGrades</servlet-name> 
+  <url-pattern>/viewGrades</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>viewCgpa</servlet-name> 
+  <url-pattern>/viewCgpa</url-pattern> 
+  </servlet-mapping>
+ 
+ </web-app>
+
